@@ -1,0 +1,7 @@
+class Chair
+{
+	class book
+	{
+		
+	}
+}

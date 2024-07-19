@@ -1,0 +1,7 @@
+public class Tab
+{
+    public static void Display()
+    {
+        System.out.println("Press the F2 key");
+        speaker();
+    }
