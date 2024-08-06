@@ -5,13 +5,13 @@ class Speaker
     private double cost;
     private int output;
 
-    // Default constructor
+    
     public Speaker() 
 	{
         
     }
 
-    // Parameterized constructor
+    
     public Speaker(String brand, String size, double cost, int output) 
 	{
         this.brand = brand;
@@ -20,7 +20,7 @@ class Speaker
         this.output = output;
     }
 
-    // Setter methods
+    
     public void setBrand(String brand) 
 	{
         this.brand = brand;
@@ -41,7 +41,7 @@ class Speaker
         this.output = output;
     }
 
-    // Method to print all instance variables
+    
     public void printDetails() 
 	{
         System.out.println("Brand: " + brand + ", Size: " + size + ", Cost: " + cost + ", Output: " + output);
