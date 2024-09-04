@@ -1,15 +1,21 @@
-class Board {
-    String type;
-    double length;
-    double width;
+package com.xworkz.practise.internal;
 
-    Board(String type, double length, double width) {
-        System.out.println("created board");
-        System.out.println("type: " + type);
-        System.out.println("length: " + length);
-        System.out.println("width: " + width);
-   
+public class Board {
+    private String name;
+    private int size;
+
+    protected Board() {
+    	
     }
+
+    public Board(String name, int size) {
+        this.name = name;
+        this.size = size;
+    }
+
+    public void printDetails() {
+      
+        System.out.println("Name: " + this.name);
+        System.out.println("size: " + this.size);
 }
-
-
+}

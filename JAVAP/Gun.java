@@ -1,31 +1,23 @@
-package com.shamanth.inheritance.datatype30;
+package com.xworkz.practise.internal;
 
-public class Gun {
-	private String name;
-	private String countryMade;
-	private String type;
+public class Gun extends weapon {
+    @Override
+	public void use() {
+        System.out.println("Gun is being used.");
+    }
 
-	public Gun() {
-		System.out.println("creating a Gun with no args");
-	}
+    @Override
+    public void fire() {
+        System.out.println("Gun fired.");
+    }
 
-	public Gun(String name, String countryMade, String type) {
-		super();
-		this.name = name;
-		this.countryMade = countryMade;
-		this.type = type;
-	}
+    public void invokeMethods() {
+        use();
+        fire();
+    }
 
-	public void fire() {
-		System.out.println("Running a fire in Gun");
-	}
-
-	public void display()
-	{
-		System.out.println("Running a display in Gun");
-		System.out.println(this.name);
-		System.out.println(this.countryMade);
-		System.out.println(this.type);
-	}
-
+    public static void main(String[] args) {
+        Gun gun = new Gun();
+        gun.invokeMethods();
+    }
 }
