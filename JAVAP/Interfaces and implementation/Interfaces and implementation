@@ -1,0 +1,13 @@
+can a class inherit multiple classes : No
+can a class inherit only single class : YEs
+Can a class implements multiple interfaces : YES
+can an interface inherit : YES
+can an interface inherit a class: No
+can an interface inherit multiple interfaces : YES
+can an interface implements interface : YES
+can a class implements interface and inherit class : YES
+can a write a const in interface : NO
+can a write a const in abstract class : YES
+can a write a over-loaded const in abstract class : YES
+Can i over-load a const : YES
+Can i over-ride a const : NO
