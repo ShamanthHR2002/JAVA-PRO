@@ -1,0 +1,20 @@
+
+Set up server
+
+ENV User/System VARIABLE for Server
+
+CATALINA_HOME : C:\Users\pc\Downloads\tomcat-1\apache-tomcat-9.0.38
+JAVA_HOME: C:\Program Files\Java\jdk1.8.0_261
+JRE_HOME: C:\Program Files\Java\jre1.8.0_261
+
+PATH
+1. C:\Users\pc\Downloads\tomcat-1\apache-tomcat-9.0.38\bin
+
+2. C:\Program Files\Java\jre1.8.0_261\bin
+
+3. C:\Program Files\Java\jdk1.8.0_261\bin
+
+Change Port No
+
+Edit : C:\Users\pc\Downloads\tomcat-1\apache-tomcat-9.0.38\conf\server.xml
+
